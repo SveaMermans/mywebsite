@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 55px;
+  font-family: serif;
+}
+
+p {
+  font-family: verdana;
+  font-size: 12px;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li.active a {
+  background-color: #111
+}
+
+#navbar li:not(.active) a:hover {
+  background-color: #666;}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+}
+
+#navbar li a {
+  display: inline-block;
+  cursor: pointer;
+  padding: 14px 16px;
+    color: white}
+
+#visit {
+  color: black;
+}
+
+#visit li {
+  text-align: left;
+}
+
+#contact {
+position: absolute;
+   bottom: 0;
+    width: 100%;
+}
+
+#content-wrap {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 2.5rem;    
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container h1 {
+  width: 100%;
+  position: absolute;
+  top: 25px;
+  text-align: center;
+}
+
+.column {
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+display: flex;
+flex-direction: row;
+}
+
+.Slideshow {
+max-width: 100%}
